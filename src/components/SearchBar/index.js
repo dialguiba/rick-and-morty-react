@@ -13,7 +13,7 @@ export const SearchBar = () => {
 
   return (
     <Form.Group className="mb-3" controlId="formBasicEmail">
-      <Form.Control type="email" placeholder="Enter email" onChange={_.debounce(handleSearchChange, 1000)} />
+      <Form.Control type="email" placeholder="Enter email" onChange={_.debounce(handleSearchChange, 800)} />
     </Form.Group>
   );
 };
