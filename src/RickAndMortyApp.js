@@ -6,6 +6,7 @@ import { SearchBar } from "./components/SearchBar";
 import { store } from "./store/store";
 
 export const RickAndMortyApp = () => {
+  console.log(process.env.REACT_APP_API_URL);
   return (
     <Provider store={store}>
       <Container>
